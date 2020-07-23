@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-unit-test';
+  title = 'Angular Unit Test';
+  description = 'This Is An Angular App That Shows How To Work With Unit Test';
 }

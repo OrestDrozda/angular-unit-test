@@ -34,7 +34,6 @@ export class ContactComponent {
     }
 
     onSubmit(): void {
-        console.log('!!!!!!!!!!');
         this.submitted = true;
     }
 }

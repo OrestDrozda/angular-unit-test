@@ -53,12 +53,4 @@ describe('ContactComponent', () => {
     comp.contactForm.controls['text'].setValue('text');
     expect(comp.contactForm.valid).toBeTruthy();
   }));
-
-  // it(`should call the onSubmit method`, async(() => {
-  //   spyOn(comp, 'onSubmit');
-  //   el = fixture.debugElement.query(By.css('.submit-btn')).nativeElement;
-  //   console.log('!!! el !!!', el);
-  //   el.click();
-  //   expect(comp.onSubmit).toHaveBeenCalled();
-  // }));
 });
